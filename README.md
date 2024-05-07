@@ -28,3 +28,5 @@ SECURITY_STATUS WINAPI NCryptVerifySignature(NCRYPT_KEY_HANDLE handle, void *pad
 ```
 
 This might be a bit better than just returning ERROR_SUCCESS like suggested in https://github.com/ValveSoftware/Proton/issues/4350#issuecomment-2099059061, but idk.
+
+I tested this in practice range and played one trios game, but I won't be using it just to be safe.
